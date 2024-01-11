@@ -1,0 +1,568 @@
+ <!DOCTYPE html>
+<title>Project: Recipe Book</title>
+        <meta charset="utf-8">
+        <style>
+        .padding-table-columns 
+        th {
+            padding: 0px 75px 0px 0px;
+            text-align: left;
+        }
+        td {
+            padding: 1px 20px 1px 5px;
+            text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+       
+        <h1>MANIKANTA HTML Recipe Reference Book</h1>
+        
+        <p>Welcome to my first HTML <strong>Recipe Book</strong> project. Below you will find a few recipes gathered from different sources across the web. I highly enjoy these delicious meals and sides, and would like to share with the beautiful people of the internet (while simultaneously practicing my coding skills) - It's a win-win situation!</p>
+        
+        <p><em>*The recipes provided in this exercise are NOT mine. A link is provided next to each recipe listed in the "Contents" below. <br><br>
+        
+    The images used in this exercise are not a 100% accurate representation of the actual dish, but are closely representative. Images were sourced from the Wikipedia site-restricted Google search.</em><br><br>
+    
+    In the future, I will source images from my own database with photographs that I have taken.</p>
+        
+        <h2>Contents:</h2>
+        
+        <ol>
+            <li><a href="#brisket">Slow Cooker BBQ Beef Brisket</a> (<a href="https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/"><em>RecipeTin Eats</em></a>)</li>
+            <li><a href="#ceviche">Cod Ceviche</a> (<a href="https://honest-food.net/ceviche-recipe-safety-parasites-2/"><em>Honest-Food</em></a>)</li>
+            <li><a href="#tagine">Slow Cooker Lamb, Apricot and Olive Tagine</a> (<a href="https://www.realsimple.com/food-recipes/browse-all-recipes/lamb-tagine-recipe"><em>RealSimple</em></a>)</li>
+            <li><a href="#naan">Garlic Naan</a> (<a href="https://www.cookwithmanali.com/restaurant-style-garlic-naan/"><em>CookWithManali</em></a>)</li>
+            <li><a href="#ribs">Sweet & Spicy Oven Baked Ribs</a> (<a href="https://www.inspiredtaste.net/7179/sweet-and-spicy-oven-baked-ribs/"><em>InspiredTaste</em></a>)</li>
+        </ol>
+        
+        <h2 id="brisket">Slow Cooker BBQ Beef Brisket</h2>
+        
+        <img style: width="350px" src="https://upload.wikimedia.org/wikipedia/commons/7/75/Smoke_Ring.jpg">
+        
+        <ul>
+            <li>Cook Time: 8-10 hours</li>
+            <li>Serves: 4-5 servings</li>
+        </ul>
+        
+        <h3 style="margin-bottom: 4px">RUB:</h3>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Beef Brisket</td>
+                    <td>2 Pounds</td>
+                </tr>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Brown Sugar</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Paprika Powder</td>
+                    <td>2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Garlic Powder</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Onion Powder</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Cumin Powder</td>
+                    <td>1/2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Mustard Powder</td>
+                    <td>3/4 tsp</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Black Pepper</td>
+                    <td>1/2 tsp</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3 style="margin-bottom: 4px">BBQ SAUCE:</h3>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <th>INGREDIENTS</th>
+                <th>QUANTITY</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Garlic (minced)</td>
+                    <td>2 Cloves</td>
+                </tr>
+                <tr>
+                    <td>Apple Cider Vinegar</td>
+                    <td>1/2 Cup</td>
+                </tr>
+                <tr>
+                    <td>Ketchup</td>
+                    <td>1 1/2 Cups</td>
+                </tr>
+                <tr>
+                    <td>Brown Sugar (packed)</td>
+                    <td> 1/2 Cup</td>
+                </tr>
+                <tr>
+                    <td>Black Pepper</td>
+                    <td>2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Onion Powder</td>
+                    <td>2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Mustard Powder</td>
+                    <td>2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Cayenne Pepper</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Worcestershire Sauce</td>
+                    <td>1 tbsp</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3>Instructions:</h3>
+        
+        <p><strong>1.</strong> Mix RUB ingredients. Rub over the entire brisket. If time permits, leave for 30 minutes - 24 hours in the refrigerator.
+</p>
+        <p><strong>2.</strong> Combine BBQ Sauce ingredients in a slow cooker. Mix, then add the brisket.</p>
+        <p><strong>3.</strong> Turn the slow cooker on "low" and set timer for 8-10 hours.</p>
+        <p><strong>4.</strong> Remove the brisket and place on a tray.</p>
+        <p><strong>5.</strong> Pour the remaining liquid from the slow cooker into a saucepan. Bring it to a simmer over medium-high heat and reduce until it thickens into a syrup-like consistency.</p>
+        <p><strong>6.</strong> Meanwhile, drizzle the brisket with oil, then roast in a 200C/390F oven for 15 minutes until brown spots appear. Remove from the oven and baste generously with the BBQ Sauce from <strong>"Step 5"</strong>, then return to oven for 5 minutes. Remove and baste again, then return to the oven for 5 – 10 minutes until the surface caramelises.</p>
+        <p><strong>7. TO SERVE:</strong> Slice brisket thinly across the grain and serve with the remaining BBQ Sauce.</p>
+     
+<p><em>Explore from recipes from Nagi at <a href="http://www.recipetineats.com">RecipeTinEats</a>.</em></p> <br>
+
+<h2 id="ceviche">Cod Ceviche</h2>
+        
+        <img style: width="350px" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Ceviche_Chilien.jpg">
+        
+        <ul>
+            <li>Total Time: 50 minutes</li>
+            <p style="margin-top: 1px; margin-bottom: 3px">*20 mins prep / 30 mins cook</p>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cod (pre-frozen)</td>
+                    <td>1 pound</td>
+                </tr>
+                <tr>
+                    <td>Limes</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Lemons</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Grapefruit</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>To Taste</td>
+                </tr>
+                <tr>
+                    <td>Black Pepper</td>
+                    <td>To Taste</td>
+                </tr>
+                <tr>
+                    <td>Red Onion</td>
+                    <td>1/2 (Sliced root to tip)</td>
+                </tr>
+                <tr>
+                    <td>Roma Tomato</td>
+                    <td>2 (Seeded)</td>
+                </tr>
+                <tr>
+                    <td>Corn</td>
+                    <td>1 ear (kernels sliced off)</td>
+                </tr>
+                <tr>
+                    <td>Habanero/Rocoto Pepper</td>
+                    <td>1 (or more to taste)</td>
+                </tr>
+                <tr>
+                    <td>Cilantro</td>
+                    <td>3 tbsp chopped</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h3>Instructions:</h3>
+        
+        <p><strong>1.</strong> Slice the fish into small, bite-sized pieces.</p>
+        <p><strong>2.</strong> Cut the tomatoes into pieces the same size as the fish and set them aside for later.</p>
+        <p><strong>3.</strong> Zest 1 lime, 1 lemon, and the grapefruit: grate them to a "fine" consistency.</p>
+        <p><strong>4.</strong> Mince the habanero fine.</p>
+        <p><strong>5.</strong> Juice all the citrus.</p>
+        <p><strong>6.</strong> Add all the ingredients except for the tomatoes and cilantro to a bowl or plastic container with a lid, and refrigerate for 30 minutes to 2 hours.</p>
+        <p><strong>7.</strong> Add the tomatoes and cilantro, mix well and serve cold with chips.</p>
+        
+<p><strong>Notes:</strong></p>
+<p style="margin-top: -15px">Marinating times make a difference when you are making ceviche. Depending on the size of the fish pieces, you will need at least 30 minutes and normally an hour for the citrus to "cook" the fish. Two hours is fine, but beyond that the ceviche, while still good, becomes more of a pickeled fish thing.<br><br>
+
+<strong>Citrus matters, too.</strong> You always want the dominant citrus in the marinade to be either limes or lemons, which are far more acidic than oranges, grapefruits or tangerines. 
+</p>
+
+<p><em>Explore more recipes from Hank Shaw at <a href="https://honest-food.net">HonestFood</a></em>.</p><br>
+
+<h2 id="tagine">Slow Cooker Lamb, Apricot and Olive Tagine</h2>
+        
+        <img style: width="350px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Tajine_013.JPG/200px-Tajine_013.JPG">
+        
+        <ul>
+            <li>Total Time: 5 Hours 30 minutes</li>
+            <p style="margin-top: 1px; margin-bottom: 3px">*30 mins prep / 5 hours cook</p>
+            <li>Serves: 4</li>
+        </ul>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lamb Shoulder (trimmed)</td>
+                    <td>1 1/2 pounds (cut into 1" pieces)</td>
+                </tr>
+                <tr>
+                    <td>Carrots</td>
+                    <td>4 (cut into 1" pieces)</td>
+                </tr>
+                <tr>
+                    <td>Onion (medium)</td>
+                    <td>1 (chopped)</td>
+                </tr>
+                <tr>
+                    <td>Dried Apricots</td>
+                    <td>1/2 cup (halved)</td>
+                </tr>
+                <tr>
+                    <td>Green Olives (pitted)</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>2 Cloves (chopped)</td>
+                </tr>
+                <tr>
+                    <td>All Purpose Flour</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Paprika</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Cumin (ground)</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Ginger (ground)</td>
+                    <td>1/2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Cinnamon (ground)</td>
+                    <td>1/2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Kosher Salt</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Black Pepper</td>
+                    <td>1/4 tsp</td>
+                </tr>
+                <tr>
+                    <td>Couscous</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Chopped Pistachios</td>
+                    <td>"For Serving"</td>
+                </tr>
+                <tr>
+                    <td>Fresh Cilantro Leaves</td>
+                    <td>"For Serving"</td>
+                </tr>
+                <tr>
+                    <td>Lemon Wedges</td>
+                    <td>"For Serving"</td>
+                </tr>
+                
+            </tbody>
+        </table>
+        
+        <h3>Instructions:</h3>
+        
+        <p><strong>1.</strong> In a 4 to 6 quart slow cooker, mix together the lamb, carrots, onion, apricots, olives, garlic, flour, paprika, cumin, cinnamon, ginger, 1 teaspoon salt, ¼ teaspoon pepper, and ½ cup water.</p>
+        <p><strong>2.</strong> Cover and cook until the lamb and vegetables are tender, on low for 8 hours or on high for 5 hours.</p>
+        <p><strong>3.</strong> Ten minutes before serving, cook the couscous according to the package directions. Serve the lamb over the couscous with the pistachios, cilantro, and lemon wedges.</p>
+        
+<p><strong>Notes:</strong></p>
+<p style="margin-top: -15px">Simple and to the point. Get cooking!</p>
+
+<p><em>Explore more recipes like this one by Charlyne Mattox at <a href="https://realsimple.com">RealSimple</a></em>.</p><br>
+        
+<h2 id="naan">Garlic Naan</h2>
+        
+        <img style: width="350px" src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Spring_onion_pancake_2013.JPG">
+        
+        <ul>
+            <li>Total Time: 2 Hours 5 minutes</li>
+            <p style="margin-top: 1px; margin-bottom: 3px">*15 mins prep / 20 mins cook / 1 hr 30 mins rest</p>
+            <li>Serves: 8 naan</li>
+        </ul>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>All Purpose Flour (maida)</td>
+                    <td>3.25 cups + 3-4 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>1 tsp</td>
+                </tr>
+                <tr>
+                    <td>Water (lukewarm)</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Active Dry Yeast</td>
+                    <td>2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Milk (lukewarm)</td>
+                    <td>1/3 cup</td>
+                </tr>
+                <tr>
+                    <td>Plain Yogurt</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Oil</td>
+                    <td>3 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Garlic Gloves</td>
+                    <td>2 (large)</td>
+                </tr>
+                <tr>
+                    <td>Nigella seeds/kalonji</td>
+                    </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>3 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Cilantro</td>
+                    <td>3 tbsp (chopped)</td>
+                </tr>
+                <tr>
+                    <td>Garlic</td>
+                    <td>2 tsp (minced)</td>
+                </tr>
+                   
+            </tbody>
+        </table>
+        
+        <h3>Instructions:</h3>
+        
+        <p><strong>1.</strong> In a bowl whisk together 3.25 cups all purpose flour (423 grams) with 1 teaspoon salt. Set it aside.
+</p>
+        <p><strong>2.</strong> To the steel bowl of your stand mixer, add lukewarm water and then add the sugar and yeast. Let it bloom for 5-10 minutes. You will know the yeast is activated when its all bubbly and frothy on top.</p>
+        
+        <p><strong>3.</strong> Once the yeast in activated, add to it lukewarm milk, yogurt and oil.</p>
+        
+        <p><strong>4.</strong> Add the flour mixture and mix until combined.</p>
+        
+        <p><strong>5.</strong> Also add the grated garlic. Start adding the remaining 3-4 tablespoons of flour (27-36 grams). Add 1 tablespoon at a time and add more if the flour is too sticky. I added around 3-4 tablespoons flour at this point. The dough will be sticky, so do not add more flour to make it dry. It just shouldn't be very sticky.</p>
+        
+        <p><strong>6.</strong> Knead with hands or with the dough hook attachment of your stand mixer for 1-2 minutes until the dough is smooth. Transfer the dough to a greased bowl.</p>
+        
+        <p><strong>7.</strong> Cover the bowl with a kitchen towel and the the dough rise in a warm place for 60-90 minutes. If it cold where you live, pre-heat your oven for few minutes and then turn it off. Then place your dough inside the oven (remember the oven should be off!)</p>
+        
+        <p><strong>8.</strong> 10- After around 90 minutes, the dough will be more than double in size. Punch the dough lightly to release the air.</p>
+        
+        <p><strong>9.</strong> Divide the dough into 8 equal parts (around 100-105 grams each). Dough will be sticky so oil your hands while dividing the dough. Cover the dough balls with a kitchen towel and let them rest for 10-15 minutes.</p>
+        
+        <p><strong>10.</strong> Meanwhile melt 3 tablespoons of butter, add minced garlic and chopped cilantro to it. Keep the garlic butter ready to brush on the naan.</p>
+        
+        <p><strong>11.</strong> Heat up an iron skillet on medium-high heat. I really recommend using an iron skillet to make these naan. </p>
+        
+        <p><strong>12.</strong> Take a dough ball and roll it into an oval shape, around 10 to 11 inches long and 6 inches wide. Apply little oil on top of the dough before you try to roll it. Also oil your roller. Do not try to roll the dough like you would roll a tortilla/roti/paratha. Simply stretch it length wise and then width wise.</p>
+        
+        <p><strong>13.</strong> Dip your finger in water and then sprinkle some nigella seeds on top. This is optional.</p>
+        
+        <p><strong>14.</strong> Transfer the rolled naan onto the hot skillet. Let it cook for couple of minutes until you see bubbles on top. Brush the naan at this point with the prepared garlic butter.</p>
+        
+        <p><strong>15.</strong> With the help of a tong, remove the naan from skillet, flip and transfer directly to the gas. There will be a little mess as the butter will pour down - don't worry, it's okay. If you want you can cover your burner with aluminium foil before you begin cooking the naan. <br><br>
+        
+        You can also skip the step of applying butter at this point and apply it directly once the naan is cooked. I like applying it twice -->more garlic flavor!</p>
+        
+        <p><strong>16.</strong> Cook the garlic naan for 15-20 seconds (directly on gas) until nicely golden brown from both the sides.</p>
+        <p><strong>17.</strong> Remove from heat and brush with more garlic butter. Serve these homemade garlic naan with dal makhani or butter paneer!</p>
+        
+        <p><strong>To Cook Garlic Naan in the Oven</strong><br>
+            To cook the garlic naan in oven - pre-heat oven to 500 F degrees. Arrange rolled naan on a baking tray and then bake for 4-5 minutes or until golden brown. Remove naan from oven and apply the garlic butter. If you want, you can then place the naan in the oven under broiler to get them charred.
+        </p>
+    
+<p><em>Explore more recipes like from Manali at <a href="https://www.cookwithmanali.com/">CookWithManali</a></em>.</p><br>
+
+<h2 id="ribs">Sweet & Spicy Oven Baked Ribs</h2>
+        
+        <img style: width="350px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Nugget_rib_cook-off_001.JPG/220px-Nugget_rib_cook-off_001.JPG">
+        
+        <ul>
+            <li>Total Time: 4 Hours 15 minutes</li>
+            <p style="margin-top: 1px; margin-bottom: 3px">*15 mins prep / 4 hours cook</p>
+            <li>Servings: 4</li>
+        </ul>
+        
+        <h3>RIBS</h3>
+        
+        <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Ribs</td>
+                    <td>2 - 2 1/2 pounds</td>
+                </tr>
+                <tr>
+                    <td>Salt & Pepper</td>
+                    <td>Rub prep</td>
+                </tr>
+            </tbody>
+            </table>
+            
+            <h3>SWEET & SPICY BBQ SAUCE</h3>
+            <table class="padding-table-columns">
+            <thead>
+                <tr>
+                    <th>INGREDIENTS</th>
+                    <th>QUANTITY</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Olive Oil</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Onion</td>
+                    <td>1/4 cup (finely diced)</td>
+                </tr>
+                <tr>
+                    <td>Cumin (ground)</td>
+                    <td>1/2 tsp</td>
+                </tr>
+                <tr>
+                    <td>Ketcup</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Hot Chili Sauce</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Light Brown Sugar</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>"To Taste"</td>
+                </tr>
+                <tr>
+                    <td>Ground Black Pepper</td>
+                    <td>"To Taste"</td>
+                    </tr>
+                </tbody>
+        </table>
+        
+        <h3>Instructions:</h3>
+        
+        <h3>PREPARE RIBS</h3>
+        
+        <p><strong>1.</strong> Heat oven to 275 degrees Fahrenheit (135C).</p>
+        
+        <p><strong>2.</strong> If the ribs still have the thin membrane covering the back of the rack, remove it.</p>
+        
+        <p><strong>3.</strong> Season both sides of the ribs with a generous amount of salt and pepper then place, meat-side up, into a large roasting pan or rimmed baking sheet. (It may be necessary to cut the ribs in half in order for them to fit into the pan).</p>
+        
+        <p><strong>4.</strong> Cover the pan or baking sheet tightly with aluminum foil, and then bake until the meat falls easily from the bones, 3 to 4 hours.</p>
+        
+        <h3>BBQ SAUCE</h3>
+        
+        <p><strong>1.</strong> While the ribs bake, make the barbecue sauce. Heat the olive oil in a saucepan over medium heat.</p>
+        
+        <p><strong>2.</strong> Add the onions and cook until soft and translucent, 5 to 8 minutes. Stir in the cumin and cook for an additional 30 seconds.</p>
+        
+        <p><strong>3.</strong> Add the ketchup, hot chili sauce, brown sugar, and apple cider vinegar. Stir to combine, season with salt then cook for 2 minutes. Set aside in preparation for the ribs to finish roasting.</p>
+        
+        <h3>TO FINISH</h3>
+        
+        <p><strong>1.</strong> Remove the ribs from the oven, discard the aluminum foil and generously brush both sides with barbecue sauce.</p>
+        
+        <p><strong>Optional:</strong> Move an oven rack near to the top of the oven. Turn broiler to high and broil the ribs for 3-4 minutes, just until the barbecue sauce begins to caramelize. (Keep a close eye on the ribs while they broil so they the sauce does not burn.)</p>
+    
+<p><em>Explore more recipes from Adam and Joanne Gallagher at <a href="https://www.inspiredtaste.net/">InspiredTaste</a></em>.</p><br>
+        
+    <p>Thanks for reading through my HTML Recipe Reference Book. I hope you enjoyed my project and took away a few great recipes with good sources for healthy and delicious foods you can make at home.</p>
+
+<p><em>Please remember that these are NOT my recipes. All credit goes to the original authors.</em></p>
+    
+    </body>
+</html>
